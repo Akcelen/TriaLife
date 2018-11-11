@@ -1,0 +1,281 @@
+@media only screen and (max-width: 1280px)
+{
+	.header-container {
+		height: 100px;
+		width: 800px;
+	}
+	.logo img{
+		width: 600px;
+	}
+	.company-container {
+		font-size: 20px;
+		height: 480px;
+		padding: 80px;
+	}
+	.company-container h5{
+		padding-top: 140px;
+		padding-bottom: 20px;
+		font-size: 1em;
+	}
+	.company-p p{
+		font-size: 0.9em;
+		text-indent: 40px;
+		width: 800px;
+		margin: 0 auto;
+	}
+	.logo img{
+		width: 500px;
+		height: 50%;
+	}
+	.cards-container {
+	width: 900px;
+	}
+	.cards{
+		width: 300px;
+	}
+	.cards-img img{
+		width: 300px;
+	}
+	.disigen-text {
+		width: 800px;
+	}
+	.advantage-container {
+	width: 900px;
+	}
+	.advantage-cards img{
+	width: 180px;
+	}
+	footer {
+		height: 290px;
+		position: relative;
+		font-size: 0.9em;
+	}
+	.footer-contaner li{
+		width: 200px;
+	}
+}
+@media only screen and (max-width: 992px)
+{
+.header-container {
+		height: 100px;
+		width: 720px;
+	}
+	.logo img{
+		width: 400px;
+		height: 50%
+	}
+	.company-container {
+		font-size: 1.1em;
+		height: 440px;
+		padding: 80px 20px;
+	}
+	.company-container h5{
+		padding-top: 120px;
+		padding-bottom: 20px;
+		font-size: 1em;
+	}
+	.company-p p{
+		font-size: 0.9em;
+		text-indent: 40px;
+		width: 720px;
+		margin: 0 auto;
+	}
+	.cards-container {
+		width: 750px;
+	}
+	.cards{
+		width: 250px;
+	}
+	.cards-img img{
+		width: 250px;
+	}
+	.disigen-text {
+		width: 720px;
+	}
+	.advantage-container {
+		width: 720px;
+		font-size: 0.8em;
+
+		height: 300px;
+	}
+		.advantage-cards img{
+		width: 140px;
+	}
+	.disigen-text {
+		font-size: 0.9em;
+	}
+	footer {
+		height: 290px;
+		position: relative;
+		font-size: 0.8em;
+	}
+	.footer-contaner li{
+		width: 170px;
+	}
+}
+@media only screen and (max-width: 768px)
+{
+	header {
+		height: 400px;
+	}
+	.company {
+		background-size: 400px;	
+	}
+	.header-container {
+		flex-direction: column;		
+		width: 320px;
+	}
+	.logo {
+		padding-top: 20px;
+	}
+	.logo img{
+		width: 300px;
+	}
+	.company-container {
+		font-size: 1.2em;
+		height: 420px;
+		padding: 20px 0;
+	}
+	.company-container h5{
+		padding-top: 30px;
+		padding-bottom: 20px;
+		font-size: 1em;
+		width: 460px;
+		margin: 0 auto;
+	}
+	.company-p p{
+		font-size: 0.9em;
+		text-indent: 40px;
+		width: 460px;
+	}
+	.cards-container {
+		width: 460px;
+	}
+	.cards{
+		width: 220px;
+	}
+	.cards-img img{
+		width: 220px;
+	}
+	.disigen-text {
+		width: 460px;
+	}
+	.advantage{
+		height: 500px;
+	}
+	.advantage-container {
+		width: 460px;
+		font-size: 0.8em;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}.advantage-cards {
+		height: 250px;
+		width: 140px
+	}
+	.advantage-cards img{
+		width: 140px;
+	}
+	footer {
+		height: 100%;
+		font-size: 0.8em;
+		padding-bottom: 80px;
+	}
+	.footer-contaner {
+		flex-wrap: wrap;
+		padding: 0 auto;
+	}
+	.contact-as-container {
+		width: 460px;
+		margin: 100px auto;
+	}
+}
+@media only screen and (max-width: 480px)
+{
+	.company {
+		background-size: 100%;	
+	}
+	.header-container {
+		flex-direction: column;		
+		width: 100%;
+	}
+	.logo img{
+		width: 250px;
+	}
+	.company-container {
+		font-size: 1em;
+		height: 440px;
+	}
+	.company-container h5{
+		font-size: 0.95em;
+		width: 270px;
+	}
+	.company-p p{
+		font-size: 0.9em;
+		text-indent: 30px;
+		width: 280px;
+	}
+	.cards-container {
+		width: 100%;
+	}
+	.cards{
+		width: 148px;
+	}
+	.cards-img img{
+		width: 142px;
+	}
+	.cards-text {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 16px;
+	}
+	.disigen-text {
+		width: 290px;
+		font-size: 0.8em;
+	}
+	/*.submit {
+		bottom: 40px;
+	}*/
+	input[type=submit] {
+		width: 220px;
+		margin-top: 18px;
+		font-size: 15px;
+	}
+	input[type=submit]:hover{
+		font-size: 17px;
+	}
+
+	.advantage{
+		height: 720px;
+	}
+	.advantage-container {
+		width: 100%;
+		font-size: 0.7em;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.advantage-cards {
+		height: 240px;
+		width: 140px
+	}
+	.advantage-cards img{
+		width: 140px;
+	}
+	footer {
+		height: 100%;
+		font-size: 0.8em;
+		padding: 80px auto;
+	}
+	.footer-contaner {
+		flex-wrap: wrap;
+		padding: 0 auto;
+	}
+	.footer-contaner li{
+		list-style: none;
+		padding-top: 8px;
+		width: 300px;
+	}
+	.contact-as-container {
+		width: 95%;
+		margin: 40px auto;
+	}
+}
